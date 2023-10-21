@@ -6,10 +6,7 @@ import dashboard from "../assets/images/dashboard.jpg";
 
 export const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-const ref = useRef()
-useEffect(()=>{
-  ref && ref.current.play()
-},[ref])
+
   return (
     <section
       className="w-screen  flex justify-center items-center bg-customDarkBg1 mb-[28vw] md:mb-[18vw] lg:mb-[10vw] xl:mb-[13vw] 2xl:mb-60 hero-bg-gradient pb-24 sm:pb-32 md:pb-44 lg:pb-0"
@@ -41,7 +38,7 @@ Construyendo sueños
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <div className="text-customGrayText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-12 sm:px-48  mb-20 sm:mb-40">
-Creando Realidad.<br/> CG, tu socio de confianza en construcción. Juntos, hacemos posibles tus proyectos
+Creando Realidad. CG, tu socio de confianza en construcción. Juntos, hacemos posibles tus proyectos
           </div>
         </motion.div>
 
@@ -52,11 +49,12 @@ Creando Realidad.<br/> CG, tu socio de confianza en construcción. Juntos, hacem
         >
           <div className="relative w-screen flex justify-center  md:mb-0 mb-10">
             <video
-            ref={ref}
+
               src={'/vide1.mp4'}
               alt="123"
               autoPlay
               muted
+              controls
               loop
               className="md:w-2/5 w-4/5    mx-auto absolute z-10 rounded-xl custom-border-gray hero-dashboard-border-gradient lg:top-6 xl:top-0"
             />
