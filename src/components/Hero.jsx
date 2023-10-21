@@ -6,7 +6,7 @@ import dashboard from "../assets/images/dashboard.jpg";
 
 export const Hero = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
-
+s
   return (
     <section
       className="w-screen  flex justify-center items-center bg-customDarkBg1 mb-[28vw] md:mb-[18vw] lg:mb-[10vw] xl:mb-[13vw] 2xl:mb-60 hero-bg-gradient pb-24 sm:pb-32 md:pb-44 lg:pb-0"
@@ -48,16 +48,9 @@ Creando Realidad. CG, tu socio de confianza en construcción. Juntos, hacemos po
           transition={{ duration: 0.5, delay: 0.15 }}
         >
           <div className="relative w-screen flex justify-center  md:mb-0 mb-10">
-            <video
 
-              src={'/vide1.mp4'}
-              alt="123"
-              autoPlay
-              muted
-              controls
-              loop
-              className="md:w-2/5 w-4/5    mx-auto absolute z-10 rounded-xl custom-border-gray hero-dashboard-border-gradient lg:top-6 xl:top-0"
-            />
+            <video src="/vide1.mp4" className="" playsInline controls muted loop autoPlay style={{ borderRadius: '50px' }} />
+
           </div>
         </motion.div>
         <div className="relative w-screen flex justify-center ">
