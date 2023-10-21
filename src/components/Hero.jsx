@@ -48,7 +48,7 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.15 }}
         >
 
-          <div className=" mx-2 " style={{ border: '1px solid rgba(0,0,0,0.5)', WebkitBoxShadow: ' 5px 8px 65px 11px rgba(119,99,145,1)', MozBoxShadow: '5px 8px 65px 11px rgba(119,99,145,1)', boxShadow: '5px 8px 65px 11px rgba(119,99,145,1)', borderRadius: '50px' }}>
+          <div className=" mx-2 " style={{ border: '1px solid rgba(0,0,0,0.5)', WebkitBoxShadow: '0px 0px 43px -7px rgba(255,0,0,1);', MozBoxShadow: '0px 0px 43px -7px rgba(255,0,0,1);', boxShadow: '0px 0px 43px -7px rgba(255,0,0,1);', borderRadius: '50px' }}>
             <video src="/vide1.mp4" className="" playsInline controls muted loop autoPlay style={{ borderRadius: '50px' }} />
 
           </div>
