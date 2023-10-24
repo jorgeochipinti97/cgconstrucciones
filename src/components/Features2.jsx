@@ -44,7 +44,7 @@ export const Features2 = () => (
           <div className="mb-8 lg:mb-0 w-full px-2 lg:pl-16 flex flex-col justify-center md:pl-8">
             <div className="mb-4 py-3 md:pl-3 md:pr-20 lg:pr-12 rounded">
               <img
-                src={'/llaneado.jpeg'}
+                src={'/pisollaneado.jpeg'}
                 alt="f1"
                 className="rounded-xl  custom-border-gray"
               />
@@ -156,11 +156,9 @@ Creamos piletas a medida que combinan diseño personalizado, tecnología innovad
         <div className="w-11/12 sm:w-3/4 mx-auto lg:w-1/2 flex flex-wrap lg:-mx-4 sm:pr-8 justify-center order-last lg:order-first">
           <div className="mb-8 lg:mb-0 w-full px-2 lg:pl-16 flex flex-col justify-center md:pl-8">
             <div className="mb-4 py-3 md:pl-3 md:pr-20 lg:pr-12 rounded">
-              <img
-                src={'/hormigon.jpeg'}
-                alt="f1"
+            <video src="/guintado.mp4" loop autoPlay controls muted
                 className="rounded-xl  custom-border-gray"
-              />
+            />
             </div>
 
           </div>
