@@ -38,7 +38,7 @@ export const Hero = () => {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           <div className="text-customGrayText text-sm lg:text-base xl:text-lg sm:text-base mt-10 px-12 sm:px-48  mb-20 sm:mb-40">
-            Creando Realidad. CG, tu socio de confianza en construcción. Juntos, hacemos posibles tus proyectos
+            Creando Realidad. GC, tu socio de confianza en construcción. Juntos, hacemos posibles tus proyectos
           </div>
         </motion.div>
 
