@@ -61,7 +61,7 @@ Descubrenos              </h2>
                 <img
                   src={'/pileta.jpeg'}
                   alt="f1"
-                  className="rounded-xl  custom-border-gray mx-auto sm:mx-unset"
+                  className="z-10 rounded-xl  custom-border-gray mx-auto sm:mx-unset"
                 />
               </div>
               <div className="py-3 pl-3 pr-2 rounded ">

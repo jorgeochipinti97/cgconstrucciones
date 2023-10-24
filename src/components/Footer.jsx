@@ -32,8 +32,14 @@ export const Footer = () => {
               <div className="w-36 flex justify-center md:justify-start mx-auto lg:mx-0 mt-5">
                 <a
                   className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
-                  href="#"
-                >
+                  href={'https://wa.link/84svqe'}
+                  >
+                  <FacebookIcon />
+                </a>
+                <a
+                  className="inline-block w-10  h-10 mr-2 p-2 bg-customDarkBg2 custom-border-gray  hover:bg-gray-700 rounded-xl"
+                  href={'https://wa.link/l4ck8y'}
+                  >
                   <FacebookIcon />
                 </a>
                 <a
