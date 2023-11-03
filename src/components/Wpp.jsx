@@ -26,8 +26,8 @@ export const Wpp = () => {
   return (<>
       {isVisible && (
 
-        <div className="fixed bottom-6 right-6  flex items-center rounded-full"  style={{backgroundColor:'rgba(0,0,0,0.5)'}}>
-          <span className="mx-2 text-white">Javier Castillo</span>
+        <div className="fixed bottom-6 right-2  flex items-center rounded-full"  style={{backgroundColor:'rgba(0,0,0,0.5)'}}>
+          <span className="mx-2 text-white">J. Castillo</span>
           <div 
             className="md:w-12 w-8 h-8 md:h-12 custom-border-gray rounded-full  bg-lime-900 hover:bg-customDarkBg3 cursor-pointer flex justify-center items-center transition z-10"
             onClick={scrollToTop}
@@ -42,9 +42,9 @@ export const Wpp = () => {
         </div>
       )}
       {isVisible && (
-<div className="fixed md:bottom-20 bottom-16 right-6 flex items-center rounded-full"  style={{backgroundColor:'rgba(0,0,0,0.5)'}}>
+<div className="fixed md:bottom-20 bottom-16 right-2 flex items-center rounded-full"  style={{backgroundColor:'rgba(0,0,0,0.5)'}}>
 
-          <span className="mx-2 text-white">Alfredo Garay</span>
+          <span className="mx-2 text-white">A. Garay</span>
           <div
             className="md:w-12 w-8 h-8 md:h-12 custom-border-gray rounded-full  bg-lime-900 hover:bg-customDarkBg3 cursor-pointer flex justify-center items-center transition z-10"
             onClick={scrollToTop}
