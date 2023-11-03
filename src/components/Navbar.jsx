@@ -60,7 +60,7 @@ FAQS
             <a
             target="_blank"
               className="navbar-link "
-              href={'https://wa.link/ws9kl3'}
+              href={'https://wa.link/l4ck8y'}
 
             >
 Contactanos
